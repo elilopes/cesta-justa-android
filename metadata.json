@@ -1,0 +1,6 @@
+{
+  "name": "Cesta Justa",
+  "description": "Comparador de preços da cesta básica e listas de compras inteligentes",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

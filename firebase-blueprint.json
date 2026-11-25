@@ -1,0 +1,25 @@
+{
+  "entities": {
+    "UserProfile": {
+      "ownerField": "userId",
+      "fields": ["userId", "email", "name", "city", "neighborhood", "updatedAt"]
+    },
+    "Product": {
+      "fields": ["id", "name", "category", "unit", "imageUrl", "averagePrice"]
+    },
+    "Establishment": {
+      "fields": ["id", "name", "city", "neighborhood", "address", "latitude", "longitude"]
+    },
+    "PriceEntry": {
+      "ownerField": "userId",
+      "fields": ["id", "productId", "establishmentId", "price", "userId", "userName", "createdAt", "city", "neighborhood"]
+    },
+    "ShoppingList": {
+      "ownerField": "userId",
+      "fields": ["id", "userId", "name", "items", "createdAt"]
+    },
+    "Promotion": {
+      "fields": ["id", "establishmentId", "productId", "title", "discountPrice", "validUntil"]
+    }
+  }
+}
